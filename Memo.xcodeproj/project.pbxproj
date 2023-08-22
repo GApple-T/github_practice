@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C7275442A93A37B00F85362 /* iCloudMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7275432A93A37B00F85362 /* iCloudMemo.swift */; };
+		4C7275462A93A39600F85362 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7275452A93A39600F85362 /* Memo.swift */; };
+		4C7275482A93A39F00F85362 /* DreamMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7275472A93A39F00F85362 /* DreamMemo.swift */; };
 		4C88BB782A9356C600C219CB /* MemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88BB772A9356C600C219CB /* MemoApp.swift */; };
 		4C88BB7A2A9356C600C219CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88BB792A9356C600C219CB /* ContentView.swift */; };
 		4C88BB7C2A9356C700C219CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C88BB7B2A9356C700C219CB /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C7275432A93A37B00F85362 /* iCloudMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudMemo.swift; sourceTree = "<group>"; };
+		4C7275452A93A39600F85362 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		4C7275472A93A39F00F85362 /* DreamMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamMemo.swift; sourceTree = "<group>"; };
 		4C88BB742A9356C600C219CB /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C88BB772A9356C600C219CB /* MemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoApp.swift; sourceTree = "<group>"; };
 		4C88BB792A9356C600C219CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 			children = (
 				4C88BB772A9356C600C219CB /* MemoApp.swift */,
 				4C88BB792A9356C600C219CB /* ContentView.swift */,
+				4C7275432A93A37B00F85362 /* iCloudMemo.swift */,
+				4C7275452A93A39600F85362 /* Memo.swift */,
+				4C7275472A93A39F00F85362 /* DreamMemo.swift */,
 				4C88BB7B2A9356C700C219CB /* Assets.xcassets */,
 				4C88BB7D2A9356C700C219CB /* Preview Content */,
 			);
@@ -259,6 +268,9 @@
 			files = (
 				4C88BB7A2A9356C600C219CB /* ContentView.swift in Sources */,
 				4C88BB782A9356C600C219CB /* MemoApp.swift in Sources */,
+				4C7275442A93A37B00F85362 /* iCloudMemo.swift in Sources */,
+				4C7275462A93A39600F85362 /* Memo.swift in Sources */,
+				4C7275482A93A39F00F85362 /* DreamMemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
