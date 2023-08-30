@@ -40,18 +40,6 @@ struct ContentView: View {
                         .padding(.horizontal)
                         Spacer()
                     } // Group
-                    /*HStack{
-                     TextField("검색", text: $Search)
-                     .foregroundColor(.white)
-                     .padding(.leading, 24)
-                     .padding(8.5)
-                     .background(Color(red: 38 / 255, green: 35 / 255, blue: 33 / 255))
-                     .cornerRadius(10)
-                     .frame(width:360)
-                     }
-                     .padding(.top, 0)
-                     .padding(.horizontal)
-                     Spacer()*/
                     
                     
                     VStack {
@@ -63,19 +51,17 @@ struct ContentView: View {
                                     .padding(.leading, 24)
                                     .padding(2)
                                     .cornerRadius(10)
-                                //.frame(width:360)
-                                
-                                
-                                
                             }.listRowBackground(Color("List"))
                             
                             
                             Section(header: Text("이전 30일").foregroundColor(.white).offset(x: -20,y:-5).font(.system(size: 25, weight:.bold))) {
                                 NavigationLink(destination: SearchView(), label: {
                                     Text("메모1")
+                                        //.padding(10)
                                 })
                             }.listRowBackground(Color("List"))
                                 .foregroundColor(.white)
+                                
                             //                            .font(.system(size: 18, weight:.bold))
                             //.font(.custom("AppleSDGothicNeoM00", size: 18))
                             
