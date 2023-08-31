@@ -62,8 +62,6 @@ struct ContentView: View {
                             }.listRowBackground(Color("List"))
                                 .foregroundColor(.white)
                                 
-                            //                            .font(.system(size: 18, weight:.bold))
-                            //.font(.custom("AppleSDGothicNeoM00", size: 18))
                             
                             
                             Section(header: Text("6월").foregroundColor(.white).offset(x: -20,y:-5).font(.system(size: 25, weight:.bold))) {
